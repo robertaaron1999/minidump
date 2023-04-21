@@ -1,2 +1,2 @@
-# minidump
-C# code to dump lsass.exe process 
+# Minidump
+#Description : "C# code to dump lsass.exe process" 
